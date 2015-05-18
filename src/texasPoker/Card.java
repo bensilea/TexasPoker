@@ -1,17 +1,3 @@
-//package texasPoker;
-//
-//public class Card {
-//	int color;
-//	int point;
-//	int flag;
-//	
-//	Card(int c,int p,int f)
-//	{
-//		color=c;
-//		point=p;
-//		flag=f;
-//	}
-//}
 package texasPoker;
 
 public class Card{
