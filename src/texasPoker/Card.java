@@ -1,3 +1,17 @@
+//package texasPoker;
+//
+//public class Card {
+//	int color;
+//	int point;
+//	int flag;
+//	
+//	Card(int c,int p,int f)
+//	{
+//		color=c;
+//		point=p;
+//		flag=f;
+//	}
+//}
 package texasPoker;
 
 public class Card{
@@ -29,5 +43,15 @@ public class Card{
 
 class CardInfo{
 	public int point;
-	public String color;
+	public int color;
+	public int flag;
+	
+	CardInfo(){}
+
+	CardInfo(int p,int c,int f)
+	{
+		point=p;
+		color=c;
+		flag=f;
+	}
 }
